@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react';
 // los recursos se carguen bien en https://<usuario>.github.io/<repo>/
 export default defineConfig({
   plugins: [react()],
-  base: '/finanzas-personales/',
+  base: '/App-Finanzas/',
 });

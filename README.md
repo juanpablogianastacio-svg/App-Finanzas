@@ -30,7 +30,7 @@ npm install
 npm run dev
 ```
 
-Después abrí la URL que muestra la consola (por ejemplo `http://localhost:5173/finanzas-personales/`).
+Después abrí la URL que muestra la consola (por ejemplo `http://localhost:5173/App-Finanzas/`).
 
 ## Build de producción
 
@@ -48,10 +48,10 @@ npm run preview
 
 El repositorio incluye un workflow (`.github/workflows/deploy.yml`) que compila y publica la app en GitHub Pages en cada push a `main`.
 
-1. Subí el repositorio a GitHub con el nombre `finanzas-personales`.
+1. El repositorio en GitHub se llama `App-Finanzas`.
    Si usás otro nombre, cambiá `base` en `vite.config.ts` a `'/<nombre-del-repo>/'`.
 2. En GitHub, andá a **Settings → Pages** y en **Source** elegí **GitHub Actions**.
-3. Hacé push a `main`. La app queda publicada en `https://<tu-usuario>.github.io/finanzas-personales/`.
+3. Hacé push a `main`. La app queda publicada en `https://<tu-usuario>.github.io/App-Finanzas/`.
 
 ## Estructura
 
